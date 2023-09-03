@@ -31,7 +31,6 @@
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
-            button2 = new Button();
             checkBox1 = new CheckBox();
             label2 = new Label();
             SuspendLayout();
@@ -66,16 +65,6 @@
             button1.Text = "Okay";
             button1.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            button2.Location = new Point(485, 223);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(8, 11);
-            button2.TabIndex = 3;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
@@ -102,7 +91,6 @@
             ClientSize = new Size(496, 402);
             Controls.Add(label2);
             Controls.Add(checkBox1);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
@@ -119,7 +107,6 @@
         private Label label1;
         private TextBox textBox1;
         private Button button1;
-        private Button button2;
         private CheckBox checkBox1;
         private Label label2;
     }
