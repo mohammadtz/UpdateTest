@@ -29,23 +29,33 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Vazirmatn Light", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(207, 34);
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(90, 54);
+            label1.Size = new Size(296, 54);
             label1.TabIndex = 0;
-            label1.Text = "hello";
+            label1.Text = "hello Say My Name";
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(314, 13);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(170, 50);
+            textBox1.TabIndex = 1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(496, 287);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -56,5 +66,6 @@
         #endregion
 
         private Label label1;
+        private TextBox textBox1;
     }
 }
